@@ -12,7 +12,9 @@ class SoundList extends React.Component {
   }
   handleKeyPress = (e) => {
     let x = this.props.sounds.find((sound) => sound.keyCode === e.keyCode);
-    this.props.selectSound(x);
+    if (x) {
+      this.props.selectSound(x);
+    }
   };
 
   renderList() {

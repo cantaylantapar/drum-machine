@@ -23,8 +23,8 @@ const soundsReducer = () => {
     {
       keyCode: 65,
       keyTrigger: 'A',
-      id: 'Shaker',
-      url: 'https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3',
+      id: 'Heater-1',
+      url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3',
     },
     {
       keyCode: 83,
